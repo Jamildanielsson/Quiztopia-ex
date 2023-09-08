@@ -1,0 +1,36 @@
+.allquizzes__wrapper {
+    min-width: 40vw;
+    max-width: 95vw;
+    min-height: 90vh;
+    background-color: #cce3de;
+    border-radius: 6px;
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.allquizzes__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.allquizzes__section {
+    min-width: 35vw;
+    max-width: 90vw;
+    min-height: 75vh;
+    background-color: #d7f0ea;
+    margin: 1.5rem;
+}
+
+.allquizzes__span {
+    font-size: x-small;
+}
+
+.allquizzes__button {
+    padding: 0.5rem 1rem;
+}

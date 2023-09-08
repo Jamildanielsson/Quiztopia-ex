@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+#root {
+    font-family: 'PT Serif', serif;
+}
+
+.listcomponent {
+    list-style-type: none;
+    padding: 1.5rem;
+    border-radius: 4px;
+    background-color: azure;
+    max-width: 70vh;
+    border-bottom: 1px solid darkcyan;
+}
+
+button {
+    transition: all 0.5s ease-out;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 6px;
+}
+
+button:active,
+button:hover {
+    background-color: #f77474;
+    color: #333;
+}

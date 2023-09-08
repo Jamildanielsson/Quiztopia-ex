@@ -1,0 +1,35 @@
+.specificgame__wrapper {
+    max-width: 95vw;
+    min-width: 40vw;
+    min-height: 95vh;
+    background-color: #cce3de;
+    border-radius: 6px;
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.specificgame__header {
+    max-width: 90vw;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.specificgame__questionsection {
+    min-width: 37vw;
+    max-width: 90vw;
+    min-height: 25vh;
+    padding: 1rem;
+    background-color: #d7f0ea;
+    margin: 0.5rem;
+    font-size: smaller;
+}
+
+.specificgame__button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+}
